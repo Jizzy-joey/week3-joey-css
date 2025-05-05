@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400
+    list-style-type: none;
+    font-size: 24px;
+}
+section > header > h2{
+    color: greenyellow;
+}
+
+
+
+section h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-weight: 400;
+    color: blue;
+}
+
+
+section > h2{
+    color:red;
+}
+
+h2{
+    color: red
+}
+
+
+h2 ~ p{
+    background-color: rgb(131, 125, 125)
+}
+h2 + p{
+    background-color: rgb(158, 98, 98)
+
+}
+
+p::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+::first-letter{
+    color: black;
+
+}
+
+ul::selection{
+    color: green;
+    background-color: blue;
+}
+h2:hover::before{
+    content: "club name ";
+    color: blue;
+}
+
+header.mine{
+    border-block-end: 5px solid blue;
+}
+.mine li{
+    background-color: rgb(230, 48, 182);
+}
+.yours.mine{
+    border-block: rgb(48, 230, 48);
+}
