@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 30px;
+
+}
+
+section{
+    font-size: 150px;
+    font-size: initial;
+    color: rgb(151, 16, 16);
+    background-color: lightblue;
+    width: 70%;
+}
+h2{
+    font-size: inherit;
+    font-size: 1.5rem;
+}
+
+p{
+    color: initial;
+    font-size: .5rem;
+    background-color: tomato;
+    line-height: 4;
+
+}
+
+section:first-of-type{
+    min-height: 300px;
+    padding: 10px, 20px, .5rem, .4rem;
+    padding-inline: .6rem;
+    padding-block: .2rem;
+    padding-block-start: .8rem;
+    padding-inline-start: 8rem;
+    padding-block: .2rem, .3rem;
+    margin: .6rem;
+    margin-inline: auto;
+    border: .8rem  double tomato;
+}
+

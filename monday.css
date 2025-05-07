@@ -62,5 +62,29 @@ header.mine{
     background-color: rgb(230, 48, 182);
 }
 .yours.mine{
+border-block: rgb(48, 230, 48);}
+
+section ~*{
+    background-color: rgb(48, 230, 48);
     border-block: rgb(48, 230, 48);
+}
+a:hover{
+    text-decoration: none;
+    background-color: cadetblue;
+}
+a:visited{
+    color: gray;
+    text-decoration-line: none;
+}
+li:first-of-type,li{
+    color: tomato;
+    background-color: rgb(10, 12, 137);
+}
+li:nth-last-of-type(3n+1){
+    color: rgb(118, 137, 10);
+    background-color: rgb(6, 68, 90);
+}
+#manu{
+    border: solid 2px black;
+    color: crimson;
 }
